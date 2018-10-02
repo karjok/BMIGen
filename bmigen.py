@@ -42,7 +42,7 @@ def menu():
 				sex=input(s+"Jenis kelamin (co/ce) ? > ")
 				while sex != "co" and sex != "ce":
 					print(lr+s+"Jenis kelamin harus jelas, cowok atau cewek !"+x)
-					sex=input(s+"Jenis Kelamin > ")
+					sex=input(s+"Jenis Kelamin (co/ce) ? > ")
 				bb=int(input(s+"Berat Badan (Kg) > "))
 				tb1=int(input(s+"Tinggi Badan (Cm) > "))
 				tb2=tb1/100
