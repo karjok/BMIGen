@@ -91,7 +91,8 @@ def menu():
 							
 							go_back=input(s+y+"Balik ke menu ? (y/n) ")
 							while go_back !="y" and go_back !="n":
-									go_back=input(s+y+"Lagi ? (y/n) ")
+								
+									go_back=input(s+y+"Balik ke menu ? (y/n) ")
 							if go_back == "n":
 									print("\n")
 									print(s+lr+"Exiting the tool...\n")
